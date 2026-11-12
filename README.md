@@ -10,24 +10,39 @@ Gereksinim: Bilgisayarda Python kurulu olmalıdır (pyserial kütüphanesi kurul
 
 Test Durumu: Uygulama yapay zeka yardımıyla geliştirilmiş olup şu an için yalnızca Assetto Corsa Competizione (ACC) üzerinde test edilip onaylanmıştır. LMU ve iRacing destekleri deneyseldir.
 KURULUM
+
 1. Dosyaları hazırla
 PedalHaptic klasörünü masaüstüne koy. Arduino IDE kodu açarken PedalHaptic.ino'nun aynı adlı bir klasör içinde olmasını ister. Bu madde hazır sekildedir dosyayı direk zipten çıkarabilirsiniz.
+
 2. Python'u kur
 ·	python.org/downloads adresinden indir.
 ·	Kurulumun ilk ekranında Add python.exe to PATH kutusunu işaretle, sonra Install Now.
+
 3. Kütüphaneyi kur
-1_kurulum.bat dosyasına çift tıkla. "Successfully installed pyserial" yazarsa tamam. Bu adım bir kere yapılır.
+  1_kurulum.bat dosyasına çift tıkla. "Successfully installed pyserial" yazarsa tamam. Bu adım bir kere yapılır.
+
 4. Arduino'ya kodu yükle
-1.	SimHub'ı tamamen kapat, sağ alttaki simgeden de çık.
-2.	Arduino IDE'yi aç (yoksa arduino.cc'den ücretsiz indir). Arduino USB'ye takılı olsun.
-3.	PedalHaptic.ino dosyasını aç.
-4.	Sketch > Include Library > Manage Libraries: "Adafruit Motor Shield library" ara ve V1 olanı kur (adında V2 yazan değil).
-5.	Tools > Board > Arduino AVR Boards > Arduino Uno.
-6.	Tools > Port: Arduino'nun portunu seç (örneğin COM3).
-7.	Upload (ok) tuşuna bas. "Done uploading" yazınca IDE'yi kapat, yoksa portu tutar.
-5. Uygulamayı başlat
+
+     1.	SimHub açıksa tamamen kapat, sağ alttaki simgeden de çık.(arduinoya simhubdan farklı kod yükleyeceğinden simhubda çalışmayacaktır, tekrar simhuba kalibre etmek isterseniz simhub içinden sürücüyü güncelleştir yaparak kullanabilirsiniz)
+
+     2.	Arduino IDE'yi aç (yoksa arduino.cc'den ücretsiz indir). Arduino USB'ye takılı olsun.
+
+     3.	PedalHaptic.ino dosyasını aç.
+
+     4.	Sketch > Include Library > Manage Libraries: "Adafruit Motor Shield library" ara ve V1 olanı kur (adında V2 yazan değil).
+
+     5.	Tools > Board > Arduino AVR Boards > Arduino Uno.
+
+     6.	Tools > Port: Arduino'nun portunu seç (örneğin COM3).
+
+      7.	Upload (ok) tuşuna bas. "Done uploading" yazınca IDE'yi kapat, yoksa portu tutar.
+
+  Uygulamayı başlat
+
 1.	2_baslat.bat dosyasına çift tıkla.
+
 2.	Arduino portunu seç ve Baglan'a bas. İki saniye sonra "Bagli" yazar, sağda gecikme görünür.
+
 3.	Sağ üstten oyunu seç: ACC, LMU veya iRacing
  ZİP DOSYASINI İNDİREREK TĞM DOSYALARI İNDİRMİŞ OLURSUNUZ.
 
