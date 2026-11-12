@@ -1,6 +1,7 @@
 # pedal-ffb-motor-yaz-l-m-
 ACC, LMU ve iRacing için Arduino Uno (CH340) ve L293D Motor Shield tabanlı, yerel çalışan ücretsiz DIY pedal titreşim (haptic) uygulaması.
-edal Haptic — ACC, LMU ve iRacing oyunları için evde hazırlanan DIY pedal titreşim (FFB) kitlerine özel, tamamen ücretsiz ve yalnızca yerel (offline) çalışan kontrol uygulamasıdır. SimHub gerektirmez.
+pedal Haptic — ACC, LMU ve iRacing oyunları için evde hazırlanan DIY pedal titreşim (FFB) kitlerine özel, tamamen ücretsiz ve yalnızca yerel (offline) çalışan kontrol uygulamasıdır. SimHub gerektirmez.
+Gaz da TC ve Tekerlek kayması, Frende ABS ve Tekerlek kilitlenmesi eklenmiştir.
 
 Donanım Uyumu: Arduino Uno R3 SMD (CH340), L293D Motor Sürücü Shield ve 6–12V titreşim motorları (MTR.TIT.01.000014) ile uyumludur.
 
@@ -39,3 +40,8 @@ Seri gecikme sağ üstte canlı görünür. Motorun kendi gecikmesini içermez.
 Bilgisayar bağlantıyı keserse motorlar 150 ms içinde kendiliğinden durur.
 
 Ve Uygulama içinde Arduino ve port seçme kısmında otomatik seçecektir ama seçmezse veya yanlış portu seçmesi durumunda buradan kendi cihazınız hangi porttayse seçebilirsiniz
+
+Motor shielde motorları bağlarken 
+M1: fren motoru
+M2: gaz motoru olacak sekilde bağlanılmıştır.
+Gaz da TC ve Tekerlek kayması, Frende ABS ve Tekerlek kilitlenmesi eklenmiştir.
