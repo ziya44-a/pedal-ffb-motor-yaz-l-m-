@@ -35,8 +35,10 @@ PedalHaptic klasörünü masaüstüne koy. Arduino IDE kodu açarken PedalHaptic
 
      6.	Tools > Port: Arduino'nun portunu seç (örneğin COM3).
 
-      7.	Upload (ok) tuşuna bas. "Done uploading" yazınca IDE'yi kapat, yoksa portu tutar.
-
+    7.	Upload (ok) tuşuna bas. "Done uploading" yazınca IDE'yi kapat, yoksa portu tutar.
+    
+    8. Dosya içindeki arduino	PedalHaptic.ino dosyasını kullanarak veya içindeki kodu kopyala yapıştır yaparak yükleyiniz karta.
+    
   Uygulamayı başlat
 
 1.	2_baslat.bat dosyasına çift tıkla.
