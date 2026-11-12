@@ -28,3 +28,12 @@ PedalHaptic klasörünü masaüstüne koy. Arduino IDE kodu açarken PedalHaptic
 2.	Arduino portunu seç ve Baglan'a bas. İki saniye sonra "Bagli" yazar, sağda gecikme görünür.
 3.	Sağ üstten oyunu seç: ACC, LMU veya iRacing
  ZİP DOSYASINI İNDİREREK TĞM DOSYALARI İNDİRMİŞ OLURSUNUZ.
+
+DİKKAT EDİLMESİ GEREKENLER
+
+ İlk testte eşiklerin ve değerlerin ayarlanması gerekebilir.
+Titreşim motorları dönmeye başlarken 30-80 ms gecikir. Yazılım gecikmesi buna eklenmez ama bu fiziksel gecikme sıfırlanamaz.
+Seri gecikme sağ üstte canlı görünür. Motorun kendi gecikmesini içermez.
+Bilgisayar bağlantıyı keserse motorlar 150 ms içinde kendiliğinden durur.
+Ve Uygulama içinde Arduino ve port seçme kısmında otomatik seçecektir ama seçmezse veya yanlış portu seçmesi durumunda buradan kendi cihazınız hangi porttayse seçebilirsiniz
+Bağlı portu öğrenmek için aygıt yöneticisinden bağlantı noktalarına bakabilirsiniz
