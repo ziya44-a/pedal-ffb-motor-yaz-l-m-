@@ -61,3 +61,5 @@ Motor shielde motorları bağlarken
 M1: fren motoru
 M2: gaz motoru olacak sekilde bağlanılmıştır.
 Gaz da TC ve Tekerlek kayması, Frende ABS ve Tekerlek kilitlenmesi eklenmiştir.
+
+ELİMDEN GELDİĞİNCE YARDIMCI OLMAYA ÇALIŞIYORUM, UYGULAMAYI KULLANARAK TÜM SORUMLULUĞU KABUL ETMİŞ OLURSUNUZ 
