@@ -1,3 +1,5 @@
+UYGUYLAMANIN YENİ SÜRÜMÜ YAYINDA
+
 # pedal-ffb-motor-yaz-l-m-
 ACC, LMU ve iRacing için Arduino Uno (CH340) ve L293D Motor Shield tabanlı, yerel çalışan ücretsiz DIY pedal titreşim (haptic) uygulaması.
 pedal Haptic — ACC, LMU ve iRacing oyunları için evde hazırlanan DIY pedal titreşim (FFB) kitlerine özel, tamamen ücretsiz ve yalnızca yerel (offline) çalışan kontrol uygulamasıdır.
